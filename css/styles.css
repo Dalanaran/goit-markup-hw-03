@@ -398,9 +398,8 @@ footer {
     padding: 60px 0;
 }
 
-.footer-container {
-    width: 1170px;
-    margin: 0 auto;
+.footer .container {
+    flex-direction: column;
 }
 
 .logo-white {
