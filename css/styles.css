@@ -153,7 +153,7 @@ address p:hover {
 }
 
 .s2 {    
-    margin: 94px auto 0;
+    padding: 94px 15px;
     display: flex;
     flex-wrap: wrap;
 }
