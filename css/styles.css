@@ -1,8 +1,13 @@
+:root {
+    --main-bg-color: #FFFFFF;
+    --second-bg-color: #2F303A;
+    --main-text-color: #FFFFFF;
+    --second-text-color: #212121;
+}
+
 body {
     font-family: 'Roboto', 'Raleway', sans-serif;
-    font-style: normal;
-    width: 100%;
-    background-color: #fff;
+    background-color: var(--main-bg-color);
 }
 
 
@@ -10,7 +15,7 @@ body {
 /* header */
 
 header {
-    background-color: #fff;
+    background-color: var(--main-bg-color);
     border-bottom: 1px solid #ECECEC;
     height: 80px;    
 }
@@ -68,7 +73,7 @@ header {
     font-size: 14px;
     line-height:1.14;
     letter-spacing: 0.02em;
-    color: #212121;
+    color: var(--second-text-color);
     text-decoration: none;
 }
 
@@ -112,7 +117,7 @@ address p:hover {
 /* main */
 
 .s1 {
-    background: #2F303A;    
+    background-color: var(--second-bg-color);    
     padding: 200px 0;
 }
 
@@ -129,7 +134,7 @@ address p:hover {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: var(--main-text-color);
 }
 
 .s1 button {
@@ -144,7 +149,7 @@ address p:hover {
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-    color: #FFFFFF;
+    color: var(--main-text-color);
     background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
@@ -182,7 +187,7 @@ address p:hover {
     line-height: 16px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #212121;
+    color: var(--second-text-color);
     margin: 0;
 }
 
@@ -211,7 +216,7 @@ address p:hover {
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--second-text-color);
 }
 
 .s3 ul {
@@ -249,7 +254,7 @@ address p:hover {
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--second-text-color);
 }
 
 .s4 ul {
@@ -263,7 +268,7 @@ address p:hover {
     width: 270px;
     vertical-align: top;
     list-style: none;
-    background: #FFFFFF;
+    background: var(--main-bg-color);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }
@@ -325,7 +330,7 @@ address p:hover {
     background-color: #2196F3;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
-    color: #fff;
+    color: var(--main-text-color);
 }
 
 .pf-nav button {
@@ -338,7 +343,7 @@ address p:hover {
     line-height: 1.625;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--second-text-color);
     cursor: pointer;
 }
 
@@ -377,7 +382,7 @@ address p:hover {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    color: #212121;
+    color: var(--second-text-color);
     text-align: left;
     margin: 0;
     
@@ -394,7 +399,7 @@ address p:hover {
 }
 
 footer {
-    background-color: #2F303A;
+    background-color: var(--second-bg-color)
     padding: 60px 0;
 }
 
@@ -403,7 +408,7 @@ footer {
 }
 
 .logo-white {
-    color: #fff;
+    color: var(--main-text-color);
 }
 
 .footer-address {
@@ -412,7 +417,7 @@ footer {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
+    color: var(--main-text-color);
     margin: 20px 0 0 0 ;
 }
 
