@@ -17,7 +17,8 @@ body {
 header {
     background-color: var(--main-bg-color);
     border-bottom: 1px solid #ECECEC;
-    height: 80px;    
+    height: 80px;
+    padding-top: 25px;
 }
 
 .container {
@@ -25,7 +26,7 @@ header {
     flex-wrap: nowrap;    
     width: 1200px;
     margin: auto;
-    padding: 24px 15px 25px;
+    padding: 0px 15px 0px;
 }
 
 .logo {   
@@ -116,9 +117,14 @@ address p:hover {
 
 /* main */
 
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
 .s1 {
     background-color: var(--second-bg-color);    
-    padding: 200px 0;
+   /*padding: 200px 0;*/
 }
 
 .s1 .container {
@@ -158,7 +164,7 @@ address p:hover {
 }
 
 .s2 {    
-    padding: 94px 15px 0;
+    padding: 0 15px 0;
     display: flex;
     flex-wrap: wrap;
 }
@@ -202,9 +208,13 @@ address p:hover {
 
 .s3 {
     width: 1200px;
-    margin: 94px auto;
+    margin: 94px auto 0;
     display: flex;
     flex-wrap: wrap;
+}
+
+.container.s3 {
+    padding: 0 15px;
 }
 
 .s3 h2 {
@@ -244,6 +254,7 @@ address p:hover {
 
 .s4 .container {
     flex-direction: column;
+    padding: 0 15px 0;
 }
 
 .s4 h2 {
@@ -300,7 +311,7 @@ address p:hover {
 /* Portfolio */
 .pf-container {
     width: 1200px;
-    margin: 94px auto;
+    margin: 0 auto;
     padding: 0 15px;
 }
 
@@ -325,8 +336,7 @@ address p:hover {
 }*/
 
 .pf-nav button:hover,
-.pf-nav button:focus {
-    padding: 6px 25px;
+.pf-nav button:focus {    
     background-color: #2196F3;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
@@ -399,7 +409,7 @@ address p:hover {
 }
 
 footer {
-    background-color: var(--second-bg-color)
+    background-color: var(--second-bg-color);
     padding: 60px 0;
 }
 
